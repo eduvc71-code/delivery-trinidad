@@ -1,0 +1,33 @@
+{{
+  "name": "delivery-trinidad-backend",
+  "version": "1.0.0",
+  "description": "Backend para sistema de delivery en Trinidad, Beni - Bolivia",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'Build completado'"
+  },
+  "keywords": [
+    "delivery",
+    "trinidad",
+    "bolivia",
+    "express",
+    "mongodb"
+  ],
+  "author": "Delivery Trinidad Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

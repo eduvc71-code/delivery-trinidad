@@ -1,0 +1,46 @@
+{
+  "name": "delivery-trinidad-backend",
+  "version": "1.0.0",
+  "description": "Backend para sistema de delivery en Trinidad, Beni - Bolivia",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build completo\"",
+    "render-build": "npm install"
+  },
+  "keywords": [
+    "delivery",
+    "trinidad",
+    "bolivia",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Delivery Trinidad",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "@types/node": "^20.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduvc71-code/delivery-trinidad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eduvc71-code/delivery-trinidad/issues"
+  },
+  "homepage": "https://github.com/eduvc71-code/delivery-trinidad#readme"
+}
